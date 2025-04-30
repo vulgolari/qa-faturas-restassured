@@ -1,0 +1,5 @@
+# Trate todo arquivo de texto com normalização de end-of-line
+* text=auto
+
+# (Opcional) Forçar LF em todos os arquivos
+# * text eol=lf
