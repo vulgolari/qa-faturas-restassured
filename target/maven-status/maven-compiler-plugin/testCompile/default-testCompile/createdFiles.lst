@@ -1,0 +1,9 @@
+com\example\model\Pagamento.class
+com\example\service\ContratoService.class
+com\example\model\Contrato$Periodicidade.class
+com\example\tests\ContratoTests.class
+com\example\model\Fatura.class
+com\example\model\Contrato.class
+com\example\model\Fatura$Status.class
+com\example\model\Pagamento$MetodoPagamento.class
+com\example\config\TestConfig.class
