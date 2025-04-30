@@ -1,71 +1,78 @@
-# QA Desafio Técnico - Gerenciamento de Faturas
+# QA Faturas RestAssured
 
-Este projeto contém testes automatizados para o sistema de gerenciamento de faturas.
+Este projeto contém testes automatizados para a API de Faturas utilizando RestAssured.
+
+## Requisitos
+
+- Java 17 ou superior
+- Maven 3.8 ou superior
+- Git
+
+## Configuração do Ambiente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/qa-faturas-restassured.git
+cd qa-faturas-restassured
+```
+
+2. Instale as dependências:
+```bash
+mvn clean install
+```
 
 ## Estrutura do Projeto
 
 ```
-src/test/java/com/example/
-├── config/
-│   └── TestConfig.java
-├── model/
-│   ├── Contrato.java
-│   ├── Fatura.java
-│   └── Pagamento.java
-├── service/
-│   └── ContratoService.java
-└── tests/
-    └── ContratoTests.java
+src/
+├── main/
+│   └── java/
+│       └── com/
+│           └── ntconsult/
+│               └── qa/
+│                   └── faturas/
+│                       ├── config/
+│                       ├── models/
+│                       ├── services/
+│                       └── utils/
+└── test/
+    ├── java/
+    │   └── com/
+    │       └── ntconsult/
+    │           └── qa/
+    │               └── faturas/
+    │                   └── tests/
+    └── resources/
+        ├── data/
+        └── jacoco/
 ```
 
-## Tecnologias Utilizadas
+## Executando os Testes
 
-- Java 11
-- JUnit 5
-- RestAssured
-- Maven
+Para executar todos os testes:
+```bash
+mvn test
+```
 
-## Casos de Teste Implementados
+Para executar testes específicos:
+```bash
+mvn test -Dtest=NomeDaClasseDeTeste
+```
 
-1. Criação de Contratos
-   - Criação de contrato válido
-   - Verificação de campos obrigatórios
-   - Validação de datas
+## Relatórios de Cobertura
 
-2. Geração de Faturas
-   - Geração automática de faturas
-   - Verificação de periodicidade
-   - Cálculo de valores
+Após a execução dos testes, os relatórios de cobertura do JaCoCo estarão disponíveis em:
+```
+target/site/jacoco/index.html
+```
 
-3. Processamento de Pagamentos
-   - Pagamento via diferentes métodos
-   - Atualização de status
-   - Validação de valores
+## Contribuindo
 
-4. Controle de Vencimentos
-   - Aplicação de multas
-   - Cálculo de juros
-   - Atualização de status
+1. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+2. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+3. Faça push para a branch (`git push origin feature/nova-feature`)
+4. Abra um Pull Request
 
-## Como Executar os Testes
+## Licença
 
-1. Certifique-se de que o sistema está rodando em `http://localhost:8080`
-2. Execute os testes usando Maven:
-   ```bash
-   mvn test
-   ```
-
-## Dependências
-
-As dependências estão configuradas no arquivo `pom.xml`:
-
-- JUnit 5
-- RestAssured
-- TestContainers (para testes com containers Docker)
-
-## Observações
-
-- Os testes foram implementados seguindo boas práticas de automação
-- A estrutura do projeto permite fácil manutenção e extensão
-- Os casos de teste cobrem os principais fluxos do sistema
-- A documentação está em português para facilitar o entendimento da equipe
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.

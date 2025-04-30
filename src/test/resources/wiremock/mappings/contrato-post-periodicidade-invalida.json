@@ -1,0 +1,21 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/v1/contratos",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.periodicidade",
+                "matches": "INVALIDO"
+            }
+        ]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "message": "Periodicidade inválida"
+        }
+    }
+} 

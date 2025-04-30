@@ -1,0 +1,21 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/v1/faturas/[0-9]+/pagamento",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.valor",
+                "greaterThan": 111.00
+            }
+        ]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "message": "Valor do pagamento excede o valor da fatura"
+        }
+    }
+} 

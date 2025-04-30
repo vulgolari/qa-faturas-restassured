@@ -1,0 +1,27 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/v1/contratos",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.periodicidade",
+                "equalTo": "MENSAL"
+            }
+        ]
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "clienteId": 1,
+            "dataInicio": "2024-04-30",
+            "dataTermino": "2025-04-30",
+            "valorTotal": 1200.00,
+            "periodicidade": "MENSAL",
+            "status": "ATIVO"
+        }
+    }
+} 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testes de Faturas">
+    <test name="Testes de Contrato">
+        <classes>
+            <class name="com.example.qa.test.ContratoTest"/>
+        </classes>
+    </test>
+    <test name="Testes de Pagamento">
+        <classes>
+            <class name="com.example.qa.test.PagamentoTest"/>
+        </classes>
+    </test>
+    <test name="Testes de Periodicidade">
+        <classes>
+            <class name="com.example.qa.test.PeriodicidadeTest"/>
+        </classes>
+    </test>
+    <test name="Testes de Vencimento">
+        <classes>
+            <class name="com.example.qa.test.VencimentoTest"/>
+        </classes>
+    </test>
+</suite> 

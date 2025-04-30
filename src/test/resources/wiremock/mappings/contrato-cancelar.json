@@ -1,0 +1,21 @@
+{
+    "request": {
+        "method": "PATCH",
+        "urlPathPattern": "/api/v1/contratos/[0-9]+/cancelar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "clienteId": 1,
+            "valorTotal": 1200.00,
+            "dataInicio": "2024-03-30",
+            "dataTermino": "2025-03-30",
+            "periodicidade": "MENSAL",
+            "status": "CANCELADO"
+        }
+    }
+} 

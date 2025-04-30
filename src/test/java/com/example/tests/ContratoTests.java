@@ -5,7 +5,6 @@ import com.example.model.Contrato;
 import com.example.model.Fatura;
 import com.example.model.Pagamento;
 import com.example.service.ContratoService;
-import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,15 +20,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ContratoTests extends TestConfig {
     private ContratoService contratoService;
     private Contrato contrato;
-    private WireMockServer wireMockServer;
 
     @BeforeEach
     public void init() {
-        // Inicializa o servidor mock
-        wireMockServer = new WireMockServer(8080);
-        wireMockServer.start();
-        WireMock.configureFor("localhost", 8080);
-
+        // Limpa todos os mocks anteriores
+        WireMock.reset();
+        
         contratoService = new ContratoService();
         contrato = new Contrato();
         contrato.setClienteId("12345");
@@ -41,7 +37,7 @@ public class ContratoTests extends TestConfig {
 
     @AfterEach
     public void tearDown() {
-        wireMockServer.stop();
+        WireMock.reset();
     }
 
     @Test

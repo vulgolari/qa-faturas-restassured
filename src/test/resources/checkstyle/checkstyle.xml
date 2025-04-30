@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+          "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <property name="severity" value="warning"/>
+    <property name="fileExtensions" value="java, properties, xml"/>
+    
+    <module name="TreeWalker">
+        <module name="UnusedImports"/>
+        <module name="RedundantImport"/>
+        <module name="RedundantModifier"/>
+        <module name="ModifierOrder"/>
+        <module name="UpperEll"/>
+        <module name="EmptyBlock"/>
+        <module name="NeedBraces"/>
+        <module name="LeftCurly"/>
+        <module name="RightCurly"/>
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <module name="IllegalInstantiation"/>
+        <module name="InnerAssignment"/>
+        <module name="MagicNumber"/>
+        <module name="MissingSwitchDefault"/>
+        <module name="MultipleVariableDeclarations"/>
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="FinalClass"/>
+        <module name="InterfaceIsType"/>
+        <module name="VisibilityModifier"/>
+        <module name="ArrayTypeStyle"/>
+        <module name="UpperEll"/>
+        <module name="ModifierOrder"/>
+        <module name="RedundantModifier"/>
+        <module name="PackageAnnotation"/>
+        <module name="NonEmptyAtclauseDescription"/>
+        <module name="JavadocTagContinuationIndentation"/>
+        <module name="SummaryJavadoc"/>
+        <module name="JavadocParagraph"/>
+        <module name="AtclauseOrder"/>
+        <module name="JavadocMethod">
+            <property name="allowMissingJavadoc" value="true"/>
+            <property name="allowedAnnotations" value="Override, Test"/>
+        </module>
+        <module name="JavadocType">
+            <property name="allowMissingJavadoc" value="true"/>
+        </module>
+        <module name="JavadocVariable">
+            <property name="allowMissingJavadoc" value="true"/>
+        </module>
+    </module>
+</module> 

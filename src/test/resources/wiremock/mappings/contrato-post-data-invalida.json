@@ -1,0 +1,25 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/v1/contratos",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.dataInicio",
+                "matches": "2024-04-01"
+            },
+            {
+                "matchesJsonPath": "$.dataTermino",
+                "matches": "2024-03-31"
+            }
+        ]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "message": "Data de início deve ser anterior à data de término"
+        }
+    }
+} 

@@ -1,0 +1,154 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/faturas",
+        "queryParameters": {
+            "contrato_id": {
+                "equalTo": "1"
+            },
+            "periodicidade": {
+                "equalTo": "MENSAL"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "id": 1,
+                "contratoId": 1,
+                "numero": "FAT001",
+                "valor": 100.00,
+                "dataVencimento": "2024-05-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 2,
+                "contratoId": 1,
+                "numero": "FAT002",
+                "valor": 100.00,
+                "dataVencimento": "2024-06-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 3,
+                "contratoId": 1,
+                "numero": "FAT003",
+                "valor": 100.00,
+                "dataVencimento": "2024-07-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 4,
+                "contratoId": 1,
+                "numero": "FAT004",
+                "valor": 100.00,
+                "dataVencimento": "2024-08-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 5,
+                "contratoId": 1,
+                "numero": "FAT005",
+                "valor": 100.00,
+                "dataVencimento": "2024-09-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 6,
+                "contratoId": 1,
+                "numero": "FAT006",
+                "valor": 100.00,
+                "dataVencimento": "2024-10-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 7,
+                "contratoId": 1,
+                "numero": "FAT007",
+                "valor": 100.00,
+                "dataVencimento": "2024-11-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 8,
+                "contratoId": 1,
+                "numero": "FAT008",
+                "valor": 100.00,
+                "dataVencimento": "2024-12-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 9,
+                "contratoId": 1,
+                "numero": "FAT009",
+                "valor": 100.00,
+                "dataVencimento": "2025-01-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 10,
+                "contratoId": 1,
+                "numero": "FAT010",
+                "valor": 100.00,
+                "dataVencimento": "2025-02-28",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 11,
+                "contratoId": 1,
+                "numero": "FAT011",
+                "valor": 100.00,
+                "dataVencimento": "2025-03-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            },
+            {
+                "id": 12,
+                "contratoId": 1,
+                "numero": "FAT012",
+                "valor": 100.00,
+                "dataVencimento": "2025-04-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 100.00
+            }
+        ]
+    }
+} 

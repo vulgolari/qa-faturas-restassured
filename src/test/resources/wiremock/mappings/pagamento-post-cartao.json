@@ -1,0 +1,26 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/v1/faturas/[0-9]+/pagamento",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.metodoPagamento",
+                "equalTo": "CARTAO"
+            }
+        ]
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "faturaId": 1,
+            "valor": 111.00,
+            "dataPagamento": "2024-03-31",
+            "status": "PAGO",
+            "metodoPagamento": "CARTAO"
+        }
+    }
+} 

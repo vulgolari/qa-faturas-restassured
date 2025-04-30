@@ -1,0 +1,66 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/faturas",
+        "queryParameters": {
+            "contrato_id": {
+                "equalTo": "1"
+            },
+            "periodicidade": {
+                "equalTo": "TRIMESTRAL"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "id": 1,
+                "contratoId": 1,
+                "numero": "FAT001",
+                "valor": 300.00,
+                "dataVencimento": "2024-07-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 300.00
+            },
+            {
+                "id": 2,
+                "contratoId": 1,
+                "numero": "FAT002",
+                "valor": 300.00,
+                "dataVencimento": "2024-10-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 300.00
+            },
+            {
+                "id": 3,
+                "contratoId": 1,
+                "numero": "FAT003",
+                "valor": 300.00,
+                "dataVencimento": "2025-01-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 300.00
+            },
+            {
+                "id": 4,
+                "contratoId": 1,
+                "numero": "FAT004",
+                "valor": 300.00,
+                "dataVencimento": "2025-04-30",
+                "status": "PENDENTE",
+                "multa": 0.00,
+                "juros": 0.00,
+                "valorTotal": 300.00
+            }
+        ]
+    }
+} 

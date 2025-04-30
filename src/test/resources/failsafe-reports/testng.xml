@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testes de Integração">
+    <test name="Testes de Integração">
+        <classes>
+            <class name="com.example.qa.test.ContratoTest"/>
+            <class name="com.example.qa.test.PagamentoTest"/>
+            <class name="com.example.qa.test.PeriodicidadeTest"/>
+            <class name="com.example.qa.test.VencimentoTest"/>
+        </classes>
+    </test>
+</suite> 

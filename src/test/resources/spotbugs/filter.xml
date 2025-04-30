@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <!-- Ignorar avisos em classes de teste -->
+    <Match>
+        <Class name="~.*Test$"/>
+    </Match>
+    
+    <!-- Ignorar avisos em classes de modelo -->
+    <Match>
+        <Class name="~.*Model$"/>
+    </Match>
+    
+    <!-- Ignorar avisos em classes de serviço -->
+    <Match>
+        <Class name="~.*Service$"/>
+    </Match>
+    
+    <!-- Ignorar avisos em classes base -->
+    <Match>
+        <Class name="~.*Base$"/>
+    </Match>
+</FindBugsFilter> 

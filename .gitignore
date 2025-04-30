@@ -1,0 +1,34 @@
+# Arquivos compilados
+target/
+*.class
+
+# Arquivos de IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+*.properties
+!src/test/resources/*.properties
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*~
+
+# Arquivos de cobertura
+coverage/
+.coverage 

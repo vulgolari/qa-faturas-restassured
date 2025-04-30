@@ -1,6 +1,17 @@
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\config\TestConfig.java
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\model\Contrato.java
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\model\Fatura.java
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\model\Pagamento.java
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\service\ContratoService.java
-C:\Users\Arklok\Downloads\qa-faturas-java\src\test\java\com\example\tests\ContratoTests.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\config\TestConfig.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\base\BaseTest.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\test\VencimentoTest.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\model\Contrato.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\model\Contrato.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\test\ContratoTest.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\model\Fatura.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\service\PagamentoService.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\model\Fatura.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\service\ContratoService.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\test\PeriodicidadeTest.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\service\ContratoService.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\test\PagamentoTest.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\config\WireMockConfig.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\tests\ContratoTests.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\model\Pagamento.java
+C:\Users\Arklok\OneDrive - NTCONSULT\Área de Trabalho\Pessoal\Automações\qa-faturas-restassured\src\test\java\com\example\qa\model\Pagamento.java

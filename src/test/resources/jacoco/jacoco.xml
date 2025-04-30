@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+          "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+          "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <property name="severity" value="warning"/>
+    <property name="fileExtensions" value="java, properties, xml"/>
+
+    <module name="TreeWalker">
+        <!-- Exclusões de cobertura -->
+        <module name="Exclude">
+            <property name="pattern" value=".*Test\.java$"/>
+            <property name="pattern" value=".*IT\.java$"/>
+            <property name="pattern" value=".*TestSuite\.java$"/>
+            <property name="pattern" value=".*TestRunner\.java$"/>
+            <property name="pattern" value=".*TestBase\.java$"/>
+            <property name="pattern" value=".*TestData\.java$"/>
+            <property name="pattern" value=".*TestUtils\.java$"/>
+            <property name="pattern" value=".*TestConstants\.java$"/>
+            <property name="pattern" value=".*TestConfig\.java$"/>
+            <property name="pattern" value=".*TestContext\.java$"/>
+            <property name="pattern" value=".*TestEnvironment\.java$"/>
+            <property name="pattern" value=".*TestFixture\.java$"/>
+            <property name="pattern" value=".*TestHelper\.java$"/>
+            <property name="pattern" value=".*TestSetup\.java$"/>
+            <property name="pattern" value=".*TestTeardown\.java$"/>
+            <property name="pattern" value=".*TestInitializer\.java$"/>
+            <property name="pattern" value=".*TestCleanup\.java$"/>
+            <property name="pattern" value=".*TestDataProvider\.java$"/>
+            <property name="pattern" value=".*TestDataFactory\.java$"/>
+            <property name="pattern" value=".*TestDataBuilder\.java$"/>
+            <property name="pattern" value=".*TestDataGenerator\.java$"/>
+            <property name="pattern" value=".*TestDataLoader\.java$"/>
+            <property name="pattern" value=".*TestDataParser\.java$"/>
+            <property name="pattern" value=".*TestDataValidator\.java$"/>
+            <property name="pattern" value=".*TestDataTransformer\.java$"/>
+            <property name="pattern" value=".*TestDataConverter\.java$"/>
+            <property name="pattern" value=".*TestDataMapper\.java$"/>
+            <property name="pattern" value=".*TestDataSerializer\.java$"/>
+            <property name="pattern" value=".*TestDataDeserializer\.java$"/>
+            <property name="pattern" value=".*TestDataFormatter\.java$"/>
+            <property name="pattern" value=".*TestDataNormalizer\.java$"/>
+            <property name="pattern" value=".*TestDataSanitizer\.java$"/>
+            <property name="pattern" value=".*TestDataFilter\.java$"/>
+            <property name="pattern" value=".*TestDataSorter\.java$"/>
+            <property name="pattern" value=".*TestDataAggregator\.java$"/>
+            <property name="pattern" value=".*TestDataAnalyzer\.java$"/>
+            <property name="pattern" value=".*TestDataReporter\.java$"/>
+            <property name="pattern" value=".*TestDataExporter\.java$"/>
+            <property name="pattern" value=".*TestDataImporter\.java$"/>
+            <property name="pattern" value=".*TestDataMigrator\.java$"/>
+            <property name="pattern" value=".*TestDataBackup\.java$"/>
+            <property name="pattern" value=".*TestDataRestore\.java$"/>
+            <property name="pattern" value=".*TestDataArchive\.java$"/>
+            <property name="pattern" value=".*TestDataCompress\.java$"/>
+            <property name="pattern" value=".*TestDataDecompress\.java$"/>
+            <property name="pattern" value=".*TestDataEncrypt\.java$"/>
+            <property name="pattern" value=".*TestDataDecrypt\.java$"/>
+            <property name="pattern" value=".*TestDataHash\.java$"/>
+            <property name="pattern" value=".*TestDataSign\.java$"/>
+            <property name="pattern" value=".*TestDataVerify\.java$"/>
+            <property name="pattern" value=".*TestDataAuthenticate\.java$"/>
+            <property name="pattern" value=".*TestDataAuthorize\.java$"/>
+            <property name="pattern" value=".*TestDataAudit\.java$"/>
+            <property name="pattern" value=".*TestDataLog\.java$"/>
+            <property name="pattern" value=".*TestDataMonitor\.java$"/>
+            <property name="pattern" value=".*TestDataAlert\.java$"/>
+            <property name="pattern" value=".*TestDataNotify\.java$"/>
+            <property name="pattern" value=".*TestDataReport\.java$"/>
+            <property name="pattern" value=".*TestDataDashboard\.java$"/>
+            <property name="pattern" value=".*TestDataVisualization\.java$"/>
+            <property name="pattern" value=".*TestDataChart\.java$"/>
+            <property name="pattern" value=".*TestDataGraph\.java$"/>
+            <property name="pattern" value=".*TestDataTable\.java$"/>
+            <property name="pattern" value=".*TestDataGrid\.java$"/>
+            <property name="pattern" value=".*TestDataList\.java$"/>
+            <property name="pattern" value=".*TestDataTree\.java$"/>
+            <property name="pattern" value=".*TestDataMap\.java$"/>
+            <property name="pattern" value=".*TestDataSet\.java$"/>
+            <property name="pattern" value=".*TestDataCollection\.java$"/>
+            <property name="pattern" value=".*TestDataArray\.java$"/>
+            <property name="pattern" value=".*TestDataMatrix\.java$"/>
+            <property name="pattern" value=".*TestDataVector\.java$"/>
+            <property name="pattern" value=".*TestDataScalar\.java$"/>
+            <property name="pattern" value=".*TestDataTensor\.java$"/>
+            <property name="pattern" value=".*TestDataStream\.java$"/>
+            <property name="pattern" value=".*TestDataBuffer\.java$"/>
+            <property name="pattern" value=".*TestDataCache\.java$"/>
+            <property name="pattern" value=".*TestDataQueue\.java$"/>
+            <property name="pattern" value=".*TestDataStack\.java$"/>
+            <property name="pattern" value=".*TestDataHeap\.java$"/>
+            <property name="pattern" value=".*TestDataTree\.java$"/>
+            <property name="pattern" value=".*TestDataGraph\.java$"/>
+            <property name="pattern" value=".*TestDataNetwork\.java$"/>
+            <property name="pattern" value=".*TestDataCluster\.java$"/>
+            <property name="pattern" value=".*TestDataPartition\.java$"/>
+            <property name="pattern" value=".*TestDataShard\.java$"/>
+            <property name="pattern" value=".*TestDataReplica\.java$"/>
+            <property name="pattern" value=".*TestDataMirror\.java$"/>
+        </module>
+    </module>
+</module> 

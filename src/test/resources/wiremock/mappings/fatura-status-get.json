@@ -1,0 +1,23 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/api/v1/faturas/[0-9]+/status"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "contratoId": 1,
+            "numero": "FAT001",
+            "valor": 100.00,
+            "dataVencimento": "2024-03-30",
+            "status": "VENCIDA",
+            "multa": 10.00,
+            "juros": 1.00,
+            "valorTotal": 111.00
+        }
+    }
+} 

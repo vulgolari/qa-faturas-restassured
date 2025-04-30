@@ -1,0 +1,21 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/v1/contratos",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.periodicidade",
+                "equalTo": "INVALIDO"
+            }
+        ]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "message": "Periodicidade inválida. Valores aceitos: MENSAL, TRIMESTRAL, ANUAL"
+        }
+    }
+} 

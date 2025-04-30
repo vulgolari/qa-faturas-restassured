@@ -1,0 +1,51 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/api/v1/faturas/periodicidade/[0-9]+"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "contratoId": 1,
+            "periodicidade": "MENSAL",
+            "faturas": [
+                {
+                    "id": 1,
+                    "contratoId": 1,
+                    "numero": "FAT001",
+                    "valor": 100.00,
+                    "dataVencimento": "2024-03-30",
+                    "status": "PENDENTE",
+                    "multa": 0.00,
+                    "juros": 0.00,
+                    "valorTotal": 100.00
+                },
+                {
+                    "id": 2,
+                    "contratoId": 1,
+                    "numero": "FAT002",
+                    "valor": 100.00,
+                    "dataVencimento": "2024-04-30",
+                    "status": "PENDENTE",
+                    "multa": 0.00,
+                    "juros": 0.00,
+                    "valorTotal": 100.00
+                },
+                {
+                    "id": 3,
+                    "contratoId": 1,
+                    "numero": "FAT003",
+                    "valor": 100.00,
+                    "dataVencimento": "2024-05-30",
+                    "status": "PENDENTE",
+                    "multa": 0.00,
+                    "juros": 0.00,
+                    "valorTotal": 100.00
+                }
+            ]
+        }
+    }
+} 

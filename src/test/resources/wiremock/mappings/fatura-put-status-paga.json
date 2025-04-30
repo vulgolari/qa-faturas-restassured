@@ -1,0 +1,25 @@
+{
+    "request": {
+        "method": "PUT",
+        "urlPathPattern": "/api/v1/faturas/([0-9]+)/status",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.status",
+                "equalTo": "PAGA"
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "contratoId": 1,
+            "valor": 100.00,
+            "dataVencimento": "2024-03-30",
+            "status": "PAGA"
+        }
+    }
+} 
